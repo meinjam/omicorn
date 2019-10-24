@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Omicorn | Predict ischemic heart disease with our advanced deep learning technique.</title>
+
+    <link rel="shortcut icon" href="img/xILwUNPUzd0x.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light" id="main-nav">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="img/xILwUNPUzd0x.png" height="40" alt=""><img src="img/oie_JKWKtWQwi7vt.png" width="160" height="40" alt="">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link text-primary" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="team.html">Meet The Team</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Predict -->
+    <section id="predict" class="py-5">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-2 d-lg-block d-none">
+
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="card border-info">
+                        <div class="card-body">
+                            <h3 class="text-center mb-2" style="color: #3292a6; font-weight: 400;">
+                                Please provide the correct information:
+                            </h3>
+                            <hr>
+                            <form action="" class="mt-4">
+                                <div class="row">
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="age">Your Age?</label>
+                                                <input type="number" name="" id="age" class="form-control" min="18" max="120">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="gender">Gender</label>
+                                                <select class="form-control" id="gender">
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id1">Family History?</label>
+                                                <select class="form-control" id="id1">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id2">Drug History?</label>
+                                                <select class="form-control" id="id2">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id3">Do you have smoking habit?</label>
+                                                <select class="form-control" id="id3">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                    <option>Used to smoke</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id4">Psychological Stress?</label>
+                                                <select class="form-control" id="id4">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id5">Chest Pain?</label>
+                                                <select class="form-control" id="id5">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id6">DLP?</label>
+                                                <select class="form-control" id="id6">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id7">Dyspnea?</label>
+                                                <select class="form-control" id="id7">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id8">DM?</label>
+                                                <select class="form-control" id="id8">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id9">Palpitation?</label>
+                                                <select class="form-control" id="id9">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id10">Physical Exercise?</label>
+                                                <select class="form-control" id="id10">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id11">ECG?</label>
+                                                <select class="form-control" id="id11">
+                                                    <option>Abnormal</option>
+                                                    <option>Normal</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2">
+                                        <div class="card border-primary">
+                                            <div class="form-group p-4">
+                                                <label for="id12">Do You have high Blood Presure(HTN)?</label>
+                                                <select class="form-control" id="id12">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn btn-primary btn-lg btn-block mt-3">Predict</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 d-lg-block d-none">
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer id="footer" class="pt-5 pb-3 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" >About us</a></li>
+                        <li class="list-inline-item"><a href="#" >Team</a></li>
+                        <li class="list-inline-item"><a href="#" >Android App</a></li>
+                        <li class="list-inline-item"><a href="#" >iOS App</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline float-md-right">
+                        <li class="list-inline-item mr-3"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item mr-3"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item mr-3"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">Copyright &copy; 2019 <a href="index.html"> Omicorn</a></li>
+                        <li class="list-inline-item">All rights reserved.</li>
+                        <li class="list-inline-item">
+                            <a href="" data-toggle="modal" data-target="#myModal"> Terms of use and privacy policy</a>.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <p class="text-muted text-center">
+                the website is designed with <i style="color: red;" class="fas fa-heart"></i> in beautiful city Jessore, Bangladesh by <a href="https://www.facebook.com/meinjam" target="_blank">inZam</a>
+            </p>
+        </div>
+    </footer>
+    
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+</body>
+</html>

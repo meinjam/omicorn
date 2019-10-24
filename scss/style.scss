@@ -1,0 +1,94 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+  
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.9;
+    background: #fff; 
+
+    .nav-item {
+        font-size: 1.4rem;
+        padding-right: 1.4rem;
+    }
+}
+
+#showcase{
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)),
+    url('../img/addiction-adult-capsule-271171.jpg');
+    min-height: 90vh;
+    background-color: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    h1{
+        font-family: 'Lato', sans-serif;
+        
+        font-weight: 300;
+        word-spacing: 5px;
+        text-transform: uppercase;
+    }
+}
+
+.fab{
+    font-size: 18px;
+}
+
+.list-inline-item{
+    margin-right: 15px;
+}
+
+/*Team*/
+
+#staff{
+    font-family: 'Lato', sans-serif;
+
+    .fab{
+        font-size: 20px;
+    }
+}
+
+/*Contact*/
+#contact{
+    font-family: 'Lato', sans-serif;
+}
+
+/*Login*/
+#login{
+    font-family: 'Lato', sans-serif;
+    
+    h1{
+        color: #555;
+    }
+}
+
+/*Sign Up*/
+#signup{
+    color: #555;
+
+    form{
+        font-size: 20px;
+    }
+}
+
+/*Predict*/
+#predict{
+    color: #555;
+
+    form{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+@media (mix-width: 544px) {  
+    h1 {font-size:1.5rem;} /*1rem = 16px*/
+  }
